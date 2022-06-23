@@ -1,0 +1,9 @@
+perl script1.pl -o filename.txt
+$ echo foo > filea
+$ :> filea
+$ wc -c filea
+       0 filea
+$ rm filea
+$ :> filea
+$ wc -c filea
+       0 filea
